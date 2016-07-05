@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+  <test verbose="2" name="Default test" preserve-order="true">
+    <classes>
+      <class name="Tatoc_TestNG.TatocTestNG">
+        <methods>
+          <include name="verifyHomepageTitle"/>
+          <include name="verifyCourseSelectionPageTitle"/>
+          <include name="verifyGridGatePageTitle"/>
+          <include name="testRedButtonDisplayed"/>
+          <include name="greencolorboxdisplayed"/>
+          <include name="testFrameDungeonTitle"/>
+          <include name="verifycolorboxdisplayed"/>
+          <include name="testBox2RepaintWorks"/>
+          <include name="testDragAroundTitle"/>
+          <include name="verifyDragAroundPage"/>
+          <include name="verifyDragBoxdisplayed"/>
+          <include name="verifydropboxdisplayed"/>
+          <include name="verifyDragging"/>
+          <include name="popupWindowsPage"/>
+          <include name="verifyPopUpWindow"/>
+          <include name="CookieHandlingPage"/>
+          <include name="verifyCookieSet"/>
+        </methods>
+      </class> <!-- Tatoc_TestNG.TatocTestNG -->
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
